@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NLog" Version="5.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApiCodeMaze.Dominio\ApiCodeMaze.Dominio.csproj" />
+    <ProjectReference Include="..\ApiCodeMaze.Repositorio\ApiCodeMaze.Repositorio.csproj" />
+  </ItemGroup>
+
+</Project>
